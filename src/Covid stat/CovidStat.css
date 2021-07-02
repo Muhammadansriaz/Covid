@@ -1,0 +1,72 @@
+.Card{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.Card_inner{
+    max-width: 233px;
+    line-height: 1.5;
+    font-family: Comfortaa,cursive;
+    font-weight: 200;
+    margin: 34px;
+    padding: 28px;
+    border-radius: 12px;
+   
+}
+.inner{
+    font-family: Comfortaa,cursive !important;
+}
+.death{
+    background-color: rgb(165 0 0);
+    background: linear-gradient(180deg,#e68d6d,rgb(165 0 0));
+
+}
+.recover{
+    background-color: #5ab331;
+    background: linear-gradient(180deg,#a8e063, #56ab2f);
+}
+.active{
+    background-color:#f09819;
+    background: linear-gradient(180deg,#edde5d,#f09819);
+}
+@media screen and (max-width: 600px) {
+    .Card_inner{
+        max-width: 200px;
+        line-height: 1.5;
+        font-family: cursive;
+        font-weight: 200;
+        margin: 10px;
+        padding: 15px;
+        border-radius: 12px;
+       
+    }
+}
+@media screen and (max-width: 523px) {
+    .Card_inner{
+        max-width: 200px;
+        line-height: 1.5;
+        font-family: cursive;
+        font-weight: 200;
+        margin: 10px;
+        padding: 6px;
+        border-radius: 12px;
+       
+    }
+}
+@media screen and (max-width: 470px) {
+    .Card{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .Card_inner{
+        max-width: 100%;
+        line-height: 1.5;
+        font-family: Comfortaa,cursive;
+        font-weight: 200;
+        margin: 10px;
+        padding: 28px;
+        border-radius: 12px;
+       
+    }
+}

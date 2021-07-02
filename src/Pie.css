@@ -1,0 +1,16 @@
+@media screen and (max-width: 500px) {
+    .piebox{
+       /* background-color: violet; */
+       margin-left: 0;
+       height: 400px;
+       width: 400px;
+    }
+}
+@media screen and (max-width: 430px) {
+    .piebox{
+       /* background-color: rgb(33, 31, 160); */
+       margin-left: 0;
+       height: 300px;
+       width: 300px;
+    }
+}

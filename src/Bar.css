@@ -1,0 +1,27 @@
+@media screen and (max-width: 600px) {
+    .barbox{
+       height: 300px;
+       width: 500px;
+       margin: 0;
+       /* background-color: violet; */
+       
+    }
+}
+@media screen and (max-width: 510px) {
+    .barbox{
+       height: 300px;
+       width: 400px;
+       margin: 0;
+       /* background-color: rgb(86, 30, 218); */
+       
+    }
+}
+@media screen and (max-width: 430px) {
+    .barbox{
+       height: 300px;
+       width: 330px;
+       margin: 0;
+       /* background-color: rgb(123, 185, 8); */
+       
+    }
+}

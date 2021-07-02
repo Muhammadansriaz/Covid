@@ -1,0 +1,11 @@
+.graph_container{
+    width: 900px !important;
+    padding: 20px;
+}
+.line_graph{
+    margin-bottom: 25px !important;
+}
+/* .cntainer{
+        height: 30pc;
+        width: 30pc !important;
+} */
