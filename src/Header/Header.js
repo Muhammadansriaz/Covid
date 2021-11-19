@@ -16,11 +16,13 @@ const Header = ({ handleCountryChange }) => {
   return (
     <div className="header">
       <div className="title">
+        
         <h1>C</h1>
         <img src={logo} alt="O" />
         <h1>VID_19</h1>
       </div>
       <div className="select">
+        <p>jnjnjnj</p>
         <select
           variant="outlined"
           className="country-select"
