@@ -22,7 +22,6 @@ const Header = ({ handleCountryChange }) => {
         <h1>VID_19</h1>
       </div>
       <div className="select">
-        <p>jnjnjnj</p>
         <select
           variant="outlined"
           className="country-select"
