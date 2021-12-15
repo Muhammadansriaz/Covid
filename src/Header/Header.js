@@ -19,7 +19,7 @@ const Header = ({ handleCountryChange }) => {
         
         <h1>C</h1>
         <img src={logo} alt="O" />
-        <h1>VID_19.</h1>
+        <h1>VID_19</h1>
       </div>
       <div className="select">
         <select
